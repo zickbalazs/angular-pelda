@@ -1,0 +1,9 @@
+<h3 class="d-md-block d-none">Sidebar</h3>
+<h3 class="d-md-none">Navbar</h3>
+<hr>
+
+<nav class="mb-3">
+    <a *ngFor="let title of titles" [href]="title.url" class="nav-link">{{title.caption}}</a>
+    <a href="#" data-bs-target="#upload" data-bs-toggle="modal">Feltöltés</a>
+</nav>
+

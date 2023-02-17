@@ -1,0 +1,6 @@
+<main>
+    <h3>Blogs</h3>
+    <hr>
+    <app-blog (delete)="delet($event)" *ngFor="let blog of blogs" [blogData]="blog"></app-blog>
+    <app-upload-modal></app-upload-modal>
+</main>

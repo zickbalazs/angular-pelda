@@ -1,0 +1,23 @@
+<div class="modal fade" id="upload" tabindex="-1" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Blog feltöltés</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label type="text" class="form-label">Cím</label>
+                <input type="text" name="title" class="form-control" ngModel>
+            </div>
+            <div class="mb-3">
+                <label type="text" class="form-label">Leírás</label>
+                <textarea name="description" class="form-control" ngModel ></textarea>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" (click)="Upload()" class="btn btn-primary" data-bs-dismiss="modal"><i class="bi bi-plus-lg"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>

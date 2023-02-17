@@ -1,0 +1,7 @@
+a{
+    transition: transform 0.15s, font-weight 0.15s;
+}
+a:hover{
+    transform: scale(105%);
+    font-weight: 550;
+}

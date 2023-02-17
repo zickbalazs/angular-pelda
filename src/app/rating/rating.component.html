@@ -1,0 +1,3 @@
+<div [class]="stars<2 ? 'text-primary' : stars > 3 ? 'text-warning' : 'text-danger'" >
+    <i class="bi bi-star-fill" *ngFor="let index of numSequence(stars)"></i>
+</div>
